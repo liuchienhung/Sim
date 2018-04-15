@@ -10,5 +10,8 @@ Same simulators:
 
 All of them have benefits and limitations. No simulators on market* have power loss from cyclic, some simulators do not simulate rotor overspeed. I tried to make simulatior with improved phisics. 
 
+Build folde - application folder with executable files.
+
+[![Real RC Heli Flight ](https://img.youtube.com/watch?v=gEtfvpFkhK0&t=1s/0.jpg)]
 
 * There is AccuRC sim, but I haven't tried it.
