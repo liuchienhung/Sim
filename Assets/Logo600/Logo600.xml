@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Helicopter>
+  <!--General Parameters-->
+  <Name edit="yes">Logo 600</Name>
+  <TimeFactor edit="yes">1</TimeFactor>
+  <PhysicalModelName edit="no">Helicopter_V1_1</PhysicalModelName>
+  <Author edit="no">Thomas Boeseler, Eddi Eckstein, Max and Tom Kreuzberger, Rolf Rohner, Andy Rummer, Rainer Stein, Mario Tilly, Torsten Schmidt</Author>
+  <WWW edit="no">www.helistore.at</WWW>
+  <Comment edit="no">Logo 600 3D with V-Stabi, Idle-Up 1: 1750, Idle-Up 2: 2300</Comment>
+  <Version>2018-01-10</Version>
+  <HelixRevision>1322</HelixRevision>
+  <!--Visual Parameters-->
+  <MainrotorPosition edit="yes">0,0,0</MainrotorPosition>
+  <MainrotorTurnAxis edit="no">0,1,0</MainrotorTurnAxis>
+  <MainrotorAngle edit="no">0,0,0</MainrotorAngle>
+  <TailrotorPosition edit="no">-358.622,13.97,25.667</TailrotorPosition>
+  <TailrotorTurnAxis edit="no">0,0,1</TailrotorTurnAxis>
+  <TailrotorAngle edit="no">270,0,0</TailrotorAngle>
+  <TailrotorCrashSizePercentage edit="yes">80</TailrotorCrashSizePercentage>
+  <CameraPosition>0.4,0,0</CameraPosition>
+  <Scale edit="no" />
+  <ScaleDeterminantPartName edit="no">Mainrotor_blades</ScaleDeterminantPartName>
+  <SizeOfScaleDeterminantPart edit="yes">1.6</SizeOfScaleDeterminantPart>
+  <HelicopterType>Trainer</HelicopterType>
+  <HookPosition edit="no">Middle,0,-34,0</HookPosition>
+  <TextureShape edit="yes" texture="12">Canopy</TextureShape>
+  <Texture edit="yes">Standard,canopy.jpg</Texture>
+  <Texture edit="yes">Mikado-Yellow,MikadoYellow.jpg</Texture>
+  <Texture edit="yes">Mikado-Red,MikadoRed.jpg</Texture>
+  <Texture edit="yes">Mikado-Orange,MikadoOrange.jpg</Texture>
+  <Texture edit="yes">Mikado-Green,MikadoGreen.jpg</Texture>
+  <Texture edit="yes">Blue,Blue.jpg</Texture>
+  <Texture edit="yes">Green,Green.jpg</Texture>
+  <Texture edit="yes">Orange-Blue,OrangeBlue.jpg</Texture>
+  <Texture edit="yes">FUSU,SG-Fusu.jpg</Texture>
+  <Texture edit="yes">SICK600-1,SG-SICK600-1.jpg</Texture>
+  <Texture edit="yes">SICK600-4,SG-SICK600-4.jpg</Texture>
+  <Texture edit="yes">PinkOr,SG-PinkOr.jpg</Texture>
+  <Texture edit="yes">NeonRed,SG-NRT.jpg</Texture>
+  <Texture edit="yes">Blue Storm,SG-BlueStorm.jpg</Texture>
+  <Texture edit="yes">Carbon Thunder,SG-CThunder.jpg</Texture>
+  <Texture edit="yes">Sunshine,SG-Sunshine.jpg</Texture>
+  <!--Mass, geometry etc.-->
+  <RhoAir edit="yes">1.209</RhoAir>
+  <Mass edit="yes">4</Mass>
+  <Ixx edit="yes">0.02</Ixx>
+  <Iyy edit="yes">0.06</Iyy>
+  <Izz edit="yes">0.04</Izz>
+  <Ixy edit="yes">0.001</Ixy>
+  <!--Main rotor-->
+  <RotorHeadPosition edit="yes">0,0.1,0</RotorHeadPosition>
+  <NumberOfBlades edit="yes">2</NumberOfBlades>
+  <MaxRadiusBlade edit="yes">0.79</MaxRadiusBlade>
+  <MinRadiusBlade edit="yes">0.25</MinRadiusBlade>
+  <ChordLengthBlade edit="yes">0.04</ChordLengthBlade>
+  <MassBlade edit="yes">0.190</MassBlade>
+  <SenseOfOrientation edit="yes">-1</SenseOfOrientation>
+  <MultiplicatorMainRotorInertia edit="yes">1.4</MultiplicatorMainRotorInertia>
+  <!--Main rotor, settings-->
+  <PitchAngleMinMax edit="yes">-13.5,13.5</PitchAngleMinMax>
+  <BladeRollAngleMinMax edit="yes">-9,9</BladeRollAngleMinMax>
+  <BladeNickAngleMinMax edit="yes">-9,9</BladeNickAngleMinMax>
+  <RotorRevPerMin100 edit="yes">2250</RotorRevPerMin100>
+  <PitchCurve edit="no">-100,-50,0,50,100</PitchCurve>
+  <PitchCurve2 edit="no">-100,-50,0,50,100</PitchCurve2>
+  <PitchCurveA edit="no">-100,-50,0,50,115</PitchCurveA>
+  <ThrottleCurve edit="no">43,43,43,43,43</ThrottleCurve>
+  <ThrottleCurve2 edit="no">83,83,83,83,83</ThrottleCurve2>
+  <ThrottleCurveA edit="no">-100,-100,-100,-100,-100</ThrottleCurveA>
+  <NickExpo edit="yes">-5</NickExpo>
+  <NickExpo2 edit="no">10</NickExpo2>
+  <NickExpoA edit="no">20</NickExpoA>
+  <NickDualRate edit="yes">100</NickDualRate>
+  <NickDualRate2 edit="no">100</NickDualRate2>
+  <NickDualRateA edit="no">90</NickDualRateA>
+  <NickDeadBand>0</NickDeadBand>
+  <NickDeadBand2>0</NickDeadBand2>
+  <NickDeadBandA>0</NickDeadBandA>
+  <RollExpo edit="yes">-5</RollExpo>
+  <RollExpo2 edit="no">10</RollExpo2>
+  <RollExpoA edit="no">20</RollExpoA>
+  <RollDualRate edit="yes">100</RollDualRate>
+  <RollDualRate2 edit="no">100</RollDualRate2>
+  <RollDualRateA edit="no">90</RollDualRateA>
+  <RollDeadBand>0</RollDeadBand>
+  <RollDeadBand2>0</RollDeadBand2>
+  <RollDeadBandA>0</RollDeadBandA>
+  <!--Main rotor, thrust-->
+  <MultiplicatorRotorLift edit="yes">1</MultiplicatorRotorLift>
+  <MultiplicatorRotorLiftAutorotation edit="yes">1.5</MultiplicatorRotorLiftAutorotation>
+  <MultiplicatorAirResistanceM edit="yes">1.1</MultiplicatorAirResistanceM>
+  <MultiplicatorAirResistanceN edit="yes">6</MultiplicatorAirResistanceN>
+  <MultiplicatorStallLift edit="yes">1.2</MultiplicatorStallLift>
+  <FactorAirResistanceDuringStall edit="yes">1.2</FactorAirResistanceDuringStall>
+  <StallAngle edit="yes">29</StallAngle>
+  <StallRevPerMin edit="yes">900</StallRevPerMin>
+  <MultiplicatorNickRollPower edit="yes">1</MultiplicatorNickRollPower>
+  <AdditionalLinearAirResistance edit="yes">0.85</AdditionalLinearAirResistance>
+  <AdditionalLinearPitchAirResistance edit="yes">1</AdditionalLinearPitchAirResistance>
+  <GroundEffectExponent edit="yes">1</GroundEffectExponent>
+  <GroundEffectIntensity>1</GroundEffectIntensity>
+  <TipLossFactor edit="yes">1</TipLossFactor>
+  <VerticalClimbFactor edit="yes">1</VerticalClimbFactor>
+  <MultiplicatorRotorTorque edit="yes">1.2</MultiplicatorRotorTorque>
+  <EulerFlowMagicNumber1 edit="yes">1</EulerFlowMagicNumber1>
+  <EulerFlowMagicNumber2 edit="yes">1</EulerFlowMagicNumber2>
+  <EulerFlowMagicNumber3 edit="yes">0.7</EulerFlowMagicNumber3>
+  <EulerFlowMagicNumber4 edit="yes">4.5</EulerFlowMagicNumber4>
+  <FactorRollNickCouplingForewardFlight edit="yes">0.01</FactorRollNickCouplingForewardFlight>
+  <PitchDynamic edit="yes">1</PitchDynamic>
+  <NickDynamic edit="yes">0</NickDynamic>
+  <RollDynamic edit="yes">0</RollDynamic>
+  <!--Main rotor, rotor head-->
+  <RotorHeadStiffnessTimeConstant edit="yes">0.01</RotorHeadStiffnessTimeConstant>
+  <RotorHeadStiffnessDamping edit="yes">2</RotorHeadStiffnessDamping>
+  <RotorHeadStiffnessMinimalDamping edit="yes">5</RotorHeadStiffnessMinimalDamping>
+  <RotorHeadStiffnessMinimalOmega edit="yes">0.9</RotorHeadStiffnessMinimalOmega>
+  <RotorHeadStiffnessNickRollCoupling edit="yes">0.035</RotorHeadStiffnessNickRollCoupling>
+  <RotorHeadStiffnessDifferential edit="yes">0.7</RotorHeadStiffnessDifferential>
+  <RotorHeadInstabilityTimeConstant edit="yes">0.01</RotorHeadInstabilityTimeConstant>
+  <RotorHeadInstabilityAmplitude edit="yes">0</RotorHeadInstabilityAmplitude>
+  <RotorPhaseShiftDegrees edit="yes">0</RotorPhaseShiftDegrees>
+  <!--Bell Hiller paddles -->
+  <MassPaddle edit="yes">0.025</MassPaddle>
+  <MassFlybar edit="yes">0.06</MassFlybar>
+  <LengthFlybar edit="yes">0.5</LengthFlybar>
+  <AreaPaddle edit="yes">0.01</AreaPaddle>
+  <!--Bell Hiller paddles, settings-->
+  <PaddlePitchFactor edit="yes">0</PaddlePitchFactor>
+  <HillerNickAngleMinMax edit="yes">-11,11</HillerNickAngleMinMax>
+  <HillerRollAngleMinMax edit="yes">-11,11</HillerRollAngleMinMax>
+  <!--Tail rotor-->
+  <TailNumberOfBlades edit="yes">2</TailNumberOfBlades>
+  <TailMaxRadiusBlade edit="yes">0.16</TailMaxRadiusBlade>
+  <TailMinRadiusBlade edit="yes">0.04</TailMinRadiusBlade>
+  <TailChordLengthBlade edit="yes">0.045</TailChordLengthBlade>
+  <TailXyzPosition edit="yes">-.895,0,0</TailXyzPosition>
+  <TailXyzDirection edit="yes">0,0,1</TailXyzDirection>
+  <TailFrequencyRatio edit="yes">5.0</TailFrequencyRatio>
+  <!--Tail rotor, thrust-->
+  <MultiplicatorTailRotorLift edit="yes">1.1</MultiplicatorTailRotorLift>
+  <MultiplicatorTailAirResistanceM edit="yes">0.1</MultiplicatorTailAirResistanceM>
+  <MultiplicatorTailAirResistanceN edit="yes">0.1</MultiplicatorTailAirResistanceN>
+  <MultiplicatorSideShiftByTailRotor edit="yes">0.3</MultiplicatorSideShiftByTailRotor>
+  <TailRotorFlightAirResistanceM edit="no">0</TailRotorFlightAirResistanceM>
+  <TailRotorFlightAirResistanceN edit="no">0</TailRotorFlightAirResistanceN>
+  <!--Tail rotor, Gyro settings-->
+  <TailPitchAngleMinMax edit="yes">-20,20</TailPitchAngleMinMax>
+  <TailServoSpeed edit="yes">850</TailServoSpeed>
+  <TailThrustReduction edit="yes">1</TailThrustReduction>
+  <YawRateMax edit="yes">9</YawRateMax>
+  <GyroGain edit="yes">145.0</GyroGain>
+  <GyroGain2 edit="yes">145.0</GyroGain2>
+  <GyroGainA edit="yes">145.0</GyroGainA>
+  <GyroHeadingHoldGain edit="yes">85.0</GyroHeadingHoldGain>
+  <GyroHeadingHoldGain2 edit="yes">85.0</GyroHeadingHoldGain2>
+  <GyroHeadingHoldGainA edit="yes">85.0</GyroHeadingHoldGainA>
+  <GyroSensorQuality edit="yes">0</GyroSensorQuality>
+  <YawExpo edit="yes">-10</YawExpo>
+  <YawExpo2 edit="no">0</YawExpo2>
+  <YawExpoA edit="no">0</YawExpoA>
+  <YawDualRate edit="yes">90</YawDualRate>
+  <YawDualRate2 edit="no">90</YawDualRate2>
+  <YawDualRateA edit="no">90</YawDualRateA>
+  <YawDeadBand>0</YawDeadBand>
+  <YawDeadBand2>0</YawDeadBand2>
+  <YawDeadBandA>0</YawDeadBandA>
+  <!--3 axes stabilisation system-->
+  <StabiNickGain edit="yes">100</StabiNickGain>
+  <StabiNickHeadingHoldGain edit="yes">50</StabiNickHeadingHoldGain>
+  <StabiNickSensorQuality edit="yes">0</StabiNickSensorQuality>
+  <StabiNickRateMax edit="yes">0.8</StabiNickRateMax>
+  <StabiRollGain edit="yes">100</StabiRollGain>
+  <StabiRollHeadingHoldGain edit="yes">50</StabiRollHeadingHoldGain>
+  <StabiRollSensorQuality edit="yes">0</StabiRollSensorQuality>
+  <StabiRollRateMax edit="yes">0.8</StabiRollRateMax>
+  <VStabiPitchFactor edit="yes">0.79999995</VStabiPitchFactor>
+  <VStabiExpoModeYaw edit="yes">0</VStabiExpoModeYaw>
+  <VStabiExpoModeSwashplate edit="yes">0</VStabiExpoModeSwashplate>
+  <!--Engine-->
+  <EngineFrequencyRatio edit="yes">17.0</EngineFrequencyRatio>
+  <OmegaTorqueData edit="yes">0,10,5000,10,20500,30,24000,45,29400,50,34000,50,40000,50</OmegaTorqueData>
+  <GearFrictionCoefficientNormal edit="yes">0.006</GearFrictionCoefficientNormal>
+  <GearFrictionCoefficientAutorotation edit="yes">0.005</GearFrictionCoefficientAutorotation>
+  <!--Servos-->
+  <ServoMaxSpeed edit="yes">800</ServoMaxSpeed>
+  <ServoClearance edit="yes">0</ServoClearance>
+  <!--Fuselage-->
+  <Face>
+    <Position>0.3,0,0</Position>
+    <Normal>1,0,0</Normal>
+    <CW>0.3</CW>
+    <Area>0.02</Area>
+  </Face>
+  <Face>
+    <Position>-0.5,0,0</Position>
+    <Normal>-1,0,0</Normal>
+    <CW>0.3</CW>
+    <Area>0.02</Area>
+  </Face>
+  <Face>
+    <Position>0.3,0,0.1</Position>
+    <Normal>0,0,1</Normal>
+    <CW>0.3</CW>
+    <Area>0.25</Area>
+  </Face>
+  <Face>
+    <Position>-0.5,0,0.1</Position>
+    <Normal>0,0,1</Normal>
+    <CW>0.3</CW>
+    <Area>0.25</Area>
+  </Face>
+  <Face>
+    <Position>0.3,0,-0.1</Position>
+    <Normal>0,0,-1</Normal>
+    <CW>0.3</CW>
+    <Area>0.25</Area>
+  </Face>
+  <Face>
+    <Position>-0.5,0,-0.1</Position>
+    <Normal>0,0,-1</Normal>
+    <CW>0.3</CW>
+    <Area>0.25</Area>
+  </Face>
+  <Face>
+    <Position>0,0.2,0</Position>
+    <Normal>0,1,0</Normal>
+    <CW>0.3</CW>
+    <Area>0.04</Area>
+  </Face>
+  <Face>
+    <Position>0,-0.3,0</Position>
+    <Normal>0,-1,0</Normal>
+    <CW>0.3</CW>
+    <Area>0.04</Area>
+  </Face>
+  <MultiplicatorAirResistanceTailRotorBroken edit="no">4.5</MultiplicatorAirResistanceTailRotorBroken>
+  <!--Horizontal and Vertical Tails-->
+  <VerticalTailArea edit="yes">0.00002</VerticalTailArea>
+  <VerticalTailNormal edit="yes">0,0,1.0</VerticalTailNormal>
+  <VerticalTailPosition edit="yes">-0.8,0,0</VerticalTailPosition>
+  <HorizontalTailArea edit="yes">0.000001</HorizontalTailArea>
+  <HorizontalTailNormal edit="yes">0,1.0,0</HorizontalTailNormal>
+  <HorizontalTailPosition edit="yes">-0.8,0,0</HorizontalTailPosition>
+  <!--Landing Gear-->
+  <ContactStiffness edit="no">350</ContactStiffness>
+  <ContactViscosity edit="no">10</ContactViscosity>
+  <ContactViscosityTangential>2.8</ContactViscosityTangential>
+  <FrictionCoefficientX edit="no">1.2</FrictionCoefficientX>
+  <FrictionCoefficientZ edit="no">2.5</FrictionCoefficientZ>
+  <MaximalContactVelocity>5</MaximalContactVelocity>
+  <!--Sound-->
+  <SoundVolumeFactor>0.3</SoundVolumeFactor>
+  <BladeVolumeFactor>0.4</BladeVolumeFactor>
+  <TailVolumeFactor>0.07</TailVolumeFactor>
+  <CrashVolumeFactor>0.7</CrashVolumeFactor>
+  <BladeSound edit="no">0.007</BladeSound>
+  <BladeSoundExpo edit="no">3</BladeSoundExpo>
+  <TailSound>15</TailSound>
+  <TailSoundExpo>3</TailSoundExpo>
+  <SoundPitchFactor>0.4</SoundPitchFactor>
+  <SoundMinPitch>0.8</SoundMinPitch>
+  <SoundMaxPitch>1.2</SoundMaxPitch>
+  <BladePitchFactor>0.4</BladePitchFactor>
+  <BladeMinPitch>0.8</BladeMinPitch>
+  <BladeMaxPitch>1.2</BladeMaxPitch>
+  <TailPitchFactor>0</TailPitchFactor>
+  <TailMinPitch>0.5</TailMinPitch>
+  <TailMaxPitch>2</TailMaxPitch>
+  <!--Smoke-->
+</Helicopter>
+

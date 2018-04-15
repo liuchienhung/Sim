@@ -1,0 +1,15 @@
+Power_m=2700
+lift_factor=1
+Flip_rate_deg=310
+Roll_rate_deg=310
+Piro_rate_deg=650
+Power_0_factor=1
+Power_cyclic_factor=1.5
+Power_pitch_factor=1
+Power_tail_factor=2
+Power_oversp_factor=0.9
+Coef_drag_front=1.2
+Coef_drag_side=1.2
+Coef_drag_bottom=1
+Coef_onc_stream=1
+camera_zoom=23

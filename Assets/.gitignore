@@ -1,0 +1,16 @@
+
+*.meta
+*.png
+*.unity
+*.mat
+*.jpg
+*.asset
+*.exr
+*.obj
+*.compute
+*.shader
+PostProcessing/
+Realistic Terrain Collection/
+
+*.psd
+*.mtl

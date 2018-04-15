@@ -1,0 +1,6 @@
+float rpm = 5f;
+		angle = rpm / 60 * Time.deltaTime*360+angle;
+		if (angle > 360) {
+			angle = angle - 360;
+		}
+		rotor_tr.Rotate (0, (angle - rotor_tr.eulerAngles.y), 0);
