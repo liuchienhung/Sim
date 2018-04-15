@@ -14,4 +14,6 @@ Build folde - application folder with executable files.
 
 ![Real RC Heli Flight ](https://img.youtube.com/gEtfvpFkhK0/0.jpg)
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)]
+
 * There is AccuRC sim, but I haven't tried it.
