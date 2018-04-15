@@ -12,9 +12,8 @@ All of them have benefits and limitations. No simulators on market* have power l
 
 Build folde - application folder with executable files.
 
-![Real RC Heli Flight ](https://img.youtube.com/gEtfvpFkhK0/0.jpg)
+![Real RC Heli Flight ](https://img.youtube.com/vi/gEtfvpFkhK0/0.jpg)
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)]
-(http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+
 
 * There is AccuRC sim, but I haven't tried it.
