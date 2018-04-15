@@ -12,10 +12,10 @@ All of them have benefits and limitations. No simulators on market* have power l
 
 Build folde - application folder with executable files.
 
-Sim video
+Sim video\
 ![Sim RC Heli  ](https://img.youtube.com/vi/C9bXPUXlZJ0/0.jpg)
 
-Real flight video
+Real flight video\
 ![Real RC Heli Flight ](https://img.youtube.com/vi/gEtfvpFkhK0/0.jpg)
 
 
