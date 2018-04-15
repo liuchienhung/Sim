@@ -1,0 +1,786 @@
+
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Camera_look:Start() (at Assets/Camera_look.cs:30)
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Camera_look:Start() (at Assets/Camera_look.cs:30)
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:323)
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:324)
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:326)
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetectorTail:.ctor() (at Assets/CollisionDetectorTail.cs:20)
+Heli_physics:Start() (at Assets/Heli_physics.cs:327)
+
+ 4/15/2018 10:19:32 PM Log 
+ Heliphisics - load prefs
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:182)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:185)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:230)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:19:32 PM Log 
+ loaded camera_zoom=68
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:264)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:19:32 PM Log 
+ prefsLoaded
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:266)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+SavePrefs:.ctor(String) (at Assets/SavePrefs.cs:18)
+Heli_physics:savePrefs() (at Assets/Heli_physics.cs:274)
+Heli_physics:Load() (at Assets/Heli_physics.cs:267)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:19:32 PM Log 
+ Heliphisics -  start
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Start() (at Assets/Heli_physics.cs:329)
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Motor:.ctor(Single) (at Assets/Motor.cs:7)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Motor:.ctor(Single) (at Assets/Motor.cs:48)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:336)
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:15)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)
+
+ 4/15/2018 10:19:32 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:19)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)
+
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:20:58 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:323)
+
+ 4/15/2018 10:20:58 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:324)
+
+ 4/15/2018 10:20:58 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:326)
+
+ 4/15/2018 10:20:58 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetectorTail:.ctor() (at Assets/CollisionDetectorTail.cs:20)
+Heli_physics:Start() (at Assets/Heli_physics.cs:327)
+
+ 4/15/2018 10:20:58 PM Log 
+ Heliphisics - load prefs
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:182)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:20:58 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:185)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:20:58 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:230)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:20:58 PM Log 
+ loaded camera_zoom=20
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:264)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:20:58 PM Log 
+ prefsLoaded
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:266)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:20:58 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+SavePrefs:.ctor(String) (at Assets/SavePrefs.cs:18)
+Heli_physics:savePrefs() (at Assets/Heli_physics.cs:274)
+Heli_physics:Load() (at Assets/Heli_physics.cs:267)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:20:58 PM Log 
+ Heliphisics -  start
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Start() (at Assets/Heli_physics.cs:329)
+
+ 4/15/2018 10:20:58 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Motor:.ctor(Single) (at Assets/Motor.cs:7)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:20:58 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Motor:.ctor(Single) (at Assets/Motor.cs:48)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:20:58 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:336)
+
+ 4/15/2018 10:20:58 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:15)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)
+
+ 4/15/2018 10:20:58 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:19)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)
+
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:21:05 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:323)
+
+ 4/15/2018 10:21:05 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:324)
+
+ 4/15/2018 10:21:05 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:326)
+
+ 4/15/2018 10:21:05 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetectorTail:.ctor() (at Assets/CollisionDetectorTail.cs:20)
+Heli_physics:Start() (at Assets/Heli_physics.cs:327)
+
+ 4/15/2018 10:21:05 PM Log 
+ Heliphisics - load prefs
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:182)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:21:05 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:185)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:21:05 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:230)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:21:05 PM Log 
+ loaded camera_zoom=47
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:264)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:21:05 PM Log 
+ prefsLoaded
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:266)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:21:05 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+SavePrefs:.ctor(String) (at Assets/SavePrefs.cs:18)
+Heli_physics:savePrefs() (at Assets/Heli_physics.cs:274)
+Heli_physics:Load() (at Assets/Heli_physics.cs:267)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:21:05 PM Log 
+ Heliphisics -  start
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Start() (at Assets/Heli_physics.cs:329)
+
+ 4/15/2018 10:21:05 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Motor:.ctor(Single) (at Assets/Motor.cs:7)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:21:05 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Motor:.ctor(Single) (at Assets/Motor.cs:48)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:21:05 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:336)
+
+ 4/15/2018 10:21:05 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:15)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)
+
+ 4/15/2018 10:21:05 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:19)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)
+
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:21:37 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:323)
+
+ 4/15/2018 10:21:37 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:324)
+
+ 4/15/2018 10:21:37 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:326)
+
+ 4/15/2018 10:21:37 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetectorTail:.ctor() (at Assets/CollisionDetectorTail.cs:20)
+Heli_physics:Start() (at Assets/Heli_physics.cs:327)
+
+ 4/15/2018 10:21:37 PM Log 
+ Heliphisics - load prefs
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:182)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:21:37 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:185)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:21:37 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:230)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:21:37 PM Log 
+ loaded camera_zoom=40
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:264)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:21:37 PM Log 
+ prefsLoaded
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:266)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:21:37 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+SavePrefs:.ctor(String) (at Assets/SavePrefs.cs:18)
+Heli_physics:savePrefs() (at Assets/Heli_physics.cs:274)
+Heli_physics:Load() (at Assets/Heli_physics.cs:267)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:21:37 PM Log 
+ Heliphisics -  start
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Start() (at Assets/Heli_physics.cs:329)
+
+ 4/15/2018 10:21:37 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Motor:.ctor(Single) (at Assets/Motor.cs:7)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:21:37 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Motor:.ctor(Single) (at Assets/Motor.cs:48)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:21:37 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:336)
+
+ 4/15/2018 10:21:37 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:15)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)
+
+ 4/15/2018 10:21:37 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:19)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)
+
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Camera_look:Start() (at Assets/Camera_look.cs:30)
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Camera_look:Start() (at Assets/Camera_look.cs:30)
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:323)
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:324)
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:326)
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetectorTail:.ctor() (at Assets/CollisionDetectorTail.cs:20)
+Heli_physics:Start() (at Assets/Heli_physics.cs:327)
+
+ 4/15/2018 10:25:02 PM Log 
+ Heliphisics - load prefs
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:182)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:185)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:230)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:02 PM Log 
+ prefsLoaded
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:265)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+SavePrefs:.ctor(String) (at Assets/SavePrefs.cs:18)
+Heli_physics:savePrefs() (at Assets/Heli_physics.cs:273)
+Heli_physics:Load() (at Assets/Heli_physics.cs:266)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:02 PM Log 
+ Heliphisics -  start
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Start() (at Assets/Heli_physics.cs:329)
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Motor:.ctor(Single) (at Assets/Motor.cs:7)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Motor:.ctor(Single) (at Assets/Motor.cs:48)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:336)
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:15)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)
+
+ 4/15/2018 10:25:02 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:19)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)
+
+ 4/15/2018 10:25:08 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+SavePrefs:.ctor(String) (at Assets/SavePrefs.cs:18)
+Heli_physics:Back() (at Assets/Heli_physics.cs:637)
+UnityEngine.EventSystems.EventSystem:Update()
+
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Camera_look:Start() (at Assets/Camera_look.cs:30)
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Camera_look:Start() (at Assets/Camera_look.cs:30)
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:323)
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:324)
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:326)
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetectorTail:.ctor() (at Assets/CollisionDetectorTail.cs:20)
+Heli_physics:Start() (at Assets/Heli_physics.cs:327)
+
+ 4/15/2018 10:25:09 PM Log 
+ Heliphisics - load prefs
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:182)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:185)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:230)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:09 PM Log 
+ prefsLoaded
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:265)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+SavePrefs:.ctor(String) (at Assets/SavePrefs.cs:18)
+Heli_physics:savePrefs() (at Assets/Heli_physics.cs:273)
+Heli_physics:Load() (at Assets/Heli_physics.cs:266)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:09 PM Log 
+ Heliphisics -  start
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Start() (at Assets/Heli_physics.cs:329)
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Motor:.ctor(Single) (at Assets/Motor.cs:7)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Motor:.ctor(Single) (at Assets/Motor.cs:48)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:336)
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:15)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)
+
+ 4/15/2018 10:25:09 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:19)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)
+
+ 4/15/2018 10:25:12 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+SavePrefs:.ctor(String) (at Assets/SavePrefs.cs:18)
+Heli_physics:Back() (at Assets/Heli_physics.cs:637)
+UnityEngine.EventSystems.EventSystem:Update()
+
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Camera_look:Start() (at Assets/Camera_look.cs:30)
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Camera_look:Start() (at Assets/Camera_look.cs:30)
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:323)
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Heli_physics:Start() (at Assets/Heli_physics.cs:324)
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:326)
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetectorTail:.ctor() (at Assets/CollisionDetectorTail.cs:20)
+Heli_physics:Start() (at Assets/Heli_physics.cs:327)
+
+ 4/15/2018 10:25:13 PM Log 
+ Heliphisics - load prefs
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:182)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:185)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+Heli_physics:Load() (at Assets/Heli_physics.cs:230)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:13 PM Log 
+ prefsLoaded
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Load() (at Assets/Heli_physics.cs:265)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+SavePrefs:.ctor(String) (at Assets/SavePrefs.cs:18)
+Heli_physics:savePrefs() (at Assets/Heli_physics.cs:273)
+Heli_physics:Load() (at Assets/Heli_physics.cs:266)
+Heli_physics:Start() (at Assets/Heli_physics.cs:328)
+
+ 4/15/2018 10:25:13 PM Log 
+ Heliphisics -  start
+ UnityEngine.MonoBehaviour:print(Object)
+Heli_physics:Start() (at Assets/Heli_physics.cs:329)
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Logger:.ctor(String, Single) (at Assets/Logger.cs:24)
+Motor:.ctor(Single) (at Assets/Motor.cs:7)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+Motor:.ctor(Single) (at Assets/Motor.cs:48)
+Heli_physics:Start() (at Assets/Heli_physics.cs:333)
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+CollisionDetector:.ctor() (at Assets/CollisionDetector.cs:22)
+Heli_physics:Start() (at Assets/Heli_physics.cs:336)
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:15)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)
+
+ 4/15/2018 10:25:13 PM Warning 
+ You are trying to create a MonoBehaviour using the 'new' keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().  Alternatively, your script can inherit from ScriptableObject or no base class at all
+ UnityEngine.MonoBehaviour:.ctor()
+LoadPrefs:.ctor(String) (at Assets/LoadPrefs.cs:11)
+FBL:.ctor(Rigidbody) (at Assets/FBL.cs:19)
+Heli_physics:Start() (at Assets/Heli_physics.cs:339)

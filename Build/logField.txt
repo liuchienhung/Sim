@@ -924,3 +924,155 @@
  4/15/2018 8:44:35 PM Log 
  Heliphisics -  start
  
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:13:36 PM Log 
+ Heliphisics - load prefs
+ 
+ 4/15/2018 10:13:36 PM Log 
+ prefsLoaded
+ 
+ 4/15/2018 10:13:36 PM Log 
+ Heliphisics -  start
+ 
+ 4/15/2018 10:13:40 PM Log 
+ rotor crushed
+ 
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:13:40 PM Log 
+ Heliphisics - load prefs
+ 
+ 4/15/2018 10:13:40 PM Log 
+ prefsLoaded
+ 
+ 4/15/2018 10:13:40 PM Log 
+ Heliphisics -  start
+ 
+ 4/15/2018 10:13:46 PM Log 
+ rotor crushed
+ 
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:13:46 PM Log 
+ Heliphisics - load prefs
+ 
+ 4/15/2018 10:13:46 PM Log 
+ prefsLoaded
+ 
+ 4/15/2018 10:13:46 PM Log 
+ Heliphisics -  start
+ 
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:26:37 PM Log 
+ Heliphisics - load prefs
+ 
+ 4/15/2018 10:26:37 PM Log 
+ prefsLoaded
+ 
+ 4/15/2018 10:26:37 PM Log 
+ Heliphisics -  start
+ 
+ 4/15/2018 10:26:54 PM Log 
+ can't write - camera_zoom to HeliPrefs
+ 
+ 4/15/2018 10:26:54 PM Log 
+ System.ObjectDisposedException: The object was used after being disposed.
+  at System.IO.StreamWriter.Write (System.String value) [0x00000] in <filename unknown>:0 
+  at System.IO.TextWriter.WriteLine (System.String value) [0x00000] in <filename unknown>:0 
+  at SavePrefs.save (System.String valName, Single value) [0x00000] in <filename unknown>:0 
+ 
+ 4/15/2018 10:26:56 PM Log 
+ rotor crushed
+ 
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:26:56 PM Log 
+ Heliphisics - load prefs
+ 
+ 4/15/2018 10:26:56 PM Log 
+ prefsLoaded
+ 
+ 4/15/2018 10:26:56 PM Log 
+ Heliphisics -  start
+ 
+ 4/15/2018 10:28:17 PM Log 
+ can't write - MotorLogger
+ 
+ 4/15/2018 10:28:17 PM Log 
+ System.ObjectDisposedException: The object was used after being disposed.
+  at System.IO.StreamWriter.Write (System.String value) [0x00000] in <filename unknown>:0 
+  at System.IO.TextWriter.Write (System.Object value) [0x00000] in <filename unknown>:0 
+  at System.IO.TextWriter.WriteLine (System.Object value) [0x00000] in <filename unknown>:0 
+  at Logger.writeCycle () [0x00000] in <filename unknown>:0 
+ 
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:28:24 PM Log 
+ Heliphisics - load prefs
+ 
+ 4/15/2018 10:28:24 PM Log 
+ prefsLoaded
+ 
+ 4/15/2018 10:28:24 PM Log 
+ Heliphisics -  start
+ 
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:29:05 PM Log 
+ Heliphisics - load prefs
+ 
+ 4/15/2018 10:29:05 PM Log 
+ prefsLoaded
+ 
+ 4/15/2018 10:29:05 PM Log 
+ Heliphisics -  start
+ 
+ 4/15/2018 10:29:35 PM Log 
+ can't write - camera_zoom to HeliPrefs
+ 
+ 4/15/2018 10:29:35 PM Log 
+ System.ObjectDisposedException: The object was used after being disposed.
+  at System.IO.StreamWriter.Write (System.String value) [0x00000] in <filename unknown>:0 
+  at System.IO.TextWriter.WriteLine (System.String value) [0x00000] in <filename unknown>:0 
+  at SavePrefs.save (System.String valName, Single value) [0x00000] in <filename unknown>:0 
+ 
+ 4/15/2018 10:29:37 PM Log 
+ rotor crushed
+ 
+
+=============== Game started ================
+
+
+
+ 4/15/2018 10:29:37 PM Log 
+ Heliphisics - load prefs
+ 
+ 4/15/2018 10:29:37 PM Log 
+ prefsLoaded
+ 
+ 4/15/2018 10:29:37 PM Log 
+ Heliphisics -  start
+ 

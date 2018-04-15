@@ -1,0 +1,4 @@
+kI_rud=60
+kI_cyclic=5
+kP_elev=0.3
+kP_ail=0.05

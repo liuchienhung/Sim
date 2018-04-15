@@ -27,7 +27,7 @@ public class Camera_look : MonoBehaviour
     // Use this for initialization 
     void Start()
     {
-		LoadPrefs loadHeliPrefs = new LoadPrefs ("userPrefs");
+		LoadPrefs loadHeliPrefs = new LoadPrefs ("CamPrefs");
 		camera.fieldOfView = loadHeliPrefs.loadFloat("camera_zoom",30f);
 		loadHeliPrefs.close ();
         fieldOfView = camera.fieldOfView;

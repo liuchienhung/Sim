@@ -1,4 +1,4 @@
-Power_m=3000
+Power_m=3500
 lift_factor=1
 Flip_rate_deg=310
 Roll_rate_deg=310
@@ -22,4 +22,3 @@ motor_vol=0.5
 pitch_vol=0.7
 cyclic_vol=1
 tail_vol=0.5
-camera_zoom=29

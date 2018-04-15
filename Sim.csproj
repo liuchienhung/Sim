@@ -227,8 +227,10 @@
   <ItemGroup>
     <Compile Include="Assets\Camera_look.cs" />
     <Compile Include="Assets\CollisionDetector.cs" />
+    <Compile Include="Assets\CollisionDetectorTail.cs" />
     <Compile Include="Assets\FBL.cs" />
     <Compile Include="Assets\Heli_physics.cs" />
+    <Compile Include="Assets\LoadPrefs.cs" />
     <Compile Include="Assets\Logger.cs" />
     <Compile Include="Assets\LogHandler.cs" />
     <Compile Include="Assets\Menu.cs" />
