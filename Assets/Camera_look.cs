@@ -62,12 +62,12 @@ public class Camera_look : MonoBehaviour
         float max_q =3f;
         if (q > max_q) { q = max_q; }
       // print(q);
-        smoothTime = 20f;
+        smoothTime =20f;
        // if (q < 1) { smoothTime = 1f; }
         float speed = smoothTime*0.5f + smoothTime * Mathf.Sqrt(q) *4f;
         
-		transform.rotation = Quaternion.RotateTowards(cam.rotation, Quaternion.LookRotation(lookPos),speed* Time.deltaTime);
-        //transform.LookAt(target);
+		//transform.rotation = Quaternion.RotateTowards(cam.rotation, Quaternion.LookRotation(lookPos),speed* Time.deltaTime);
+        transform.LookAt(target);
 
         if (Input.GetAxis("Mouse ScrollWheel") > 0f) { fieldOfView--; }
         if (Input.GetAxis("Mouse ScrollWheel") < 0f) { fieldOfView++; }

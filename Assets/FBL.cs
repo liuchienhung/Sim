@@ -100,9 +100,10 @@ public  class FBL : MonoBehaviour{
 		e_elev = rotRate - Flip_rate;
 		errSum_elev = errSum_elev + e_elev * deltaTime;
 		dErr_elev = (e_elev - last_e_elev) / deltaTime;
-		//Integral error Cut-off
-		if (errSum_elev >  1f) { errSum_elev =  1f; }
-        if (errSum_elev < -1f) { errSum_elev = -1f; }
+        //Integral error Cut-off
+        float erElev_max = 0.25f;
+        if (errSum_elev > erElev_max) { errSum_elev = erElev_max; }
+        if (errSum_elev < -erElev_max) { errSum_elev = -erElev_max; }
         if (Mathf.Abs(e_elev) < 0.01f) { errSum_elev = 0; }
         output = kP_elev * e_elev + kI_elev * errSum_elev + kD_elev * dErr_elev;
 		//Output Cut-off
@@ -126,7 +127,7 @@ public  class FBL : MonoBehaviour{
 	static float last_e_rud = 0;
 	public static float errSum_rud = 0;
 	public static float dErr_rud = 0;
-	static float kP_rud = 0.05f;
+	static float kP_rud = 0.06f;
 	static float kI_rud =60f;
 	static float kD_rud = 0.00004f;
     static float outP_rud;
@@ -134,7 +135,7 @@ public  class FBL : MonoBehaviour{
     static float outD_rud;
     float Pitch_last;
     float Cyclic_last;
-    float p_comp=3.4f;
+    float p_comp=1f;
 	float outp_comp=0;
 	float decr_p_comp=0;
     static float output_rud;

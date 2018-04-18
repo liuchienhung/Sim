@@ -1076,3 +1076,119 @@
  4/15/2018 10:29:37 PM Log 
  Heliphisics -  start
  
+
+=============== Game started ================
+
+
+
+ 4/18/2018 11:59:17 PM Log 
+ Heliphisics - load prefs
+ 
+ 4/18/2018 11:59:17 PM Log 
+ prefsLoaded
+ 
+ 4/18/2018 11:59:17 PM Log 
+ Heliphisics -  start
+ 
+
+=============== Game started ================
+
+
+
+ 4/19/2018 12:02:30 AM Log 
+ Heliphisics - load prefs
+ 
+ 4/19/2018 12:02:30 AM Log 
+ prefsLoaded
+ 
+ 4/19/2018 12:02:30 AM Log 
+ Heliphisics -  start
+ 
+ 4/19/2018 12:02:59 AM Log 
+ can't write - MotorLogger
+ 
+ 4/19/2018 12:02:59 AM Log 
+ System.ObjectDisposedException: The object was used after being disposed.
+  at System.IO.StreamWriter.Write (System.String value) [0x00000] in <filename unknown>:0 
+  at System.IO.TextWriter.Write (System.Object value) [0x00000] in <filename unknown>:0 
+  at System.IO.TextWriter.WriteLine (System.Object value) [0x00000] in <filename unknown>:0 
+  at Logger.writeCycle () [0x00000] in <filename unknown>:0 
+ 
+
+=============== Game started ================
+
+
+
+ 4/19/2018 12:03:43 AM Log 
+ Heliphisics - load prefs
+ 
+ 4/19/2018 12:03:43 AM Log 
+ prefsLoaded
+ 
+ 4/19/2018 12:03:43 AM Log 
+ Heliphisics -  start
+ 
+ 4/19/2018 12:05:33 AM Log 
+ can't write - camera_zoom to HeliPrefs
+ 
+ 4/19/2018 12:05:33 AM Log 
+ System.ObjectDisposedException: The object was used after being disposed.
+  at System.IO.StreamWriter.Write (System.String value) [0x00000] in <filename unknown>:0 
+  at System.IO.TextWriter.WriteLine (System.String value) [0x00000] in <filename unknown>:0 
+  at SavePrefs.save (System.String valName, Single value) [0x00000] in <filename unknown>:0 
+ 
+ 4/19/2018 12:05:35 AM Log 
+ rotor crushed
+ 
+
+=============== Game started ================
+
+
+
+ 4/19/2018 12:05:35 AM Log 
+ Heliphisics - load prefs
+ 
+ 4/19/2018 12:05:35 AM Log 
+ prefsLoaded
+ 
+ 4/19/2018 12:05:35 AM Log 
+ Heliphisics -  start
+ 
+
+=============== Game started ================
+
+
+
+ 4/19/2018 12:11:16 AM Log 
+ Heliphisics - load prefs
+ 
+ 4/19/2018 12:11:16 AM Log 
+ prefsLoaded
+ 
+ 4/19/2018 12:11:16 AM Log 
+ Heliphisics -  start
+ 
+ 4/19/2018 12:12:00 AM Log 
+ can't write - MotorLogger
+ 
+ 4/19/2018 12:12:00 AM Log 
+ System.ObjectDisposedException: The object was used after being disposed.
+  at System.IO.StreamWriter.Write (System.String value) [0x00000] in <filename unknown>:0 
+  at System.IO.TextWriter.Write (System.Object value) [0x00000] in <filename unknown>:0 
+  at System.IO.TextWriter.WriteLine (System.Object value) [0x00000] in <filename unknown>:0 
+  at Logger.writeCycle () [0x00000] in <filename unknown>:0 
+ 
+
+=============== Game started ================
+
+
+
+ 4/19/2018 12:12:07 AM Log 
+ Heliphisics - load prefs
+ 
+ 4/19/2018 12:12:07 AM Log 
+ prefsLoaded
+ 
+ 4/19/2018 12:12:07 AM Log 
+ Heliphisics -  start
+ 
