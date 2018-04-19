@@ -1,4 +1,4 @@
-Power_m=2700
+Power_m=3500
 lift_factor=1
 Flip_rate_deg=310
 Roll_rate_deg=310

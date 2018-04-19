@@ -1,1 +1,1 @@
-camera_zoom=33
+camera_zoom=62
