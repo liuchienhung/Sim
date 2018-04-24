@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sim", "Sim.csproj", "{156CD072-F954-C1B5-FBB9-F7918E510575}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sim.Plugins", "Sim.Plugins.csproj", "{CDABA373-57E2-B3AA-8FD7-6D4562A0F719}"

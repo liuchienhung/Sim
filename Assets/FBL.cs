@@ -79,9 +79,10 @@ public  class FBL : MonoBehaviour{
 		e_ail = rotRate - Roll_rate;
 		errSum_ail = errSum_ail + e_ail * deltaTime;
 		dErr_ail = (e_ail - last_e_ail) / deltaTime;
-		//Integral error Cut-off
-        if (errSum_ail >  1) { errSum_ail =  1; }
-        if (errSum_ail < -1) { errSum_ail = -1; }
+        //Integral error Cut-off
+        float erAil_max = 0.25f;
+        if (errSum_ail > erAil_max)  { errSum_ail = erAil_max; }
+        if (errSum_ail < -erAil_max) { errSum_ail = -erAil_max; }
         if (Mathf.Abs(e_ail) < 0.01f) { errSum_ail = 0; }
         output = kP_ail * e_ail + kI_ail * errSum_ail + kD_ail * dErr_ail;
        //Output Cut-off

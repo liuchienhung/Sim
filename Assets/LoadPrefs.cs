@@ -65,6 +65,24 @@ public class LoadPrefs : MonoBehaviour {
 		}
 		return value;
 	}
+	public bool loadBool(string prefName,bool defaultValue)
+	{
+		bool value= defaultValue;		
+		string line;
+		if (file!=null) 
+		{
+			while (file.Peek () >= 0) {
+				line = file.ReadLine ();
+				string [] st=line.Split('=');
+				if (st [0].Equals (prefName)) {
+					value = bool.Parse (st [1]);
+					break;
+				}
+			}
+		}
+
+		return value;
+	}
 	public string loadString(string prefName)
 	{
 		string value=null;

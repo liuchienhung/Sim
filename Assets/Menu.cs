@@ -30,6 +30,11 @@ public class Menu : MonoBehaviour {
 	{
 		SceneManager.LoadScene("HeliSettings");
 	}
+	public void Field_change()
+	{
+		SceneManager.LoadScene("Field_change");
+	}
+
 	public void Exit()
 	{
 		Application.Quit();

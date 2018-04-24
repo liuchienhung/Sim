@@ -64,6 +64,20 @@ public class SavePrefs : MonoBehaviour{
                 print(e);
             }   
 	}
+	
+	public void save(string valName, bool value)
+	{
+            try
+            {
+                file.WriteLine(valName+"="+value);
+			file.Flush();
+            }
+            catch (Exception e)
+            {
+			print("can't write - "+valName +" to "+ fileName);
+                print(e);
+            }   
+	}
 	public void close()
 	{
 		if (file != null) {
