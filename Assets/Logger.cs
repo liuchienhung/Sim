@@ -21,36 +21,34 @@ public class Logger : MonoBehaviour{
 	ArrayList names =new ArrayList();
 	Dictionary <string,float> row = new Dictionary <string,float> ();
 
-	public Logger(string fileName,float setLogTime)
+	public void Init(string fileName,float setLogTime)
 	{
-        this.logFileName = fileName;
+		this.logFileName = fileName;
 		pathApp= Path.GetFullPath(".");
 		pathLogs=pathApp+@"\Logs";
 		logTimeStep = setLogTime;
-	
+
 		if (!Directory.Exists (pathLogs)) {
 			System.IO.Directory.CreateDirectory (pathLogs);
 		}
 		if (File.Exists (pathLogs + @"\"+fileName+".txt")) {
-
 			try{File.Delete (pathLogs + @"\" + fileName + ".txt");}
 			catch(Exception e)
 			{
-                print("can't delete Logs");
-                print(e);
-            }
+				print("can't delete Logs");
+				print(e);
+			}
 		}
-
 		//file = new System.IO.StreamWriter (pathLogs + @"\"+fileName+".txt",false);
-				try{file= File.AppendText(pathLogs + @"\" + fileName + ".txt");}
-       			catch(Exception e)
-						{
-							print("can't create Logs");
-							print(e);
-						}
-            firstLine =true;
-
+		try{file= File.AppendText(pathLogs + @"\" + fileName + ".txt");}
+		catch(Exception e)
+		{
+			print("can't create Logs");
+			print(e);
+		}
+		firstLine =true;
 	}
+
 		
 	public void saveLog(string valName, float value)
 	{

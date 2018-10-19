@@ -90,8 +90,12 @@ public class Transmitter : MonoBehaviour
 	float rud_min = 0.01f;
 	float thr_min = 0.01f;
 
+    //Logging
+    Logger TrLogger;
+    float timer=0;
+    bool back=false;
 
-	public void Save()
+    public void Save()
 	{
 		SavePrefs saveSettings = new SavePrefs ("userPrefs");
 		//Axis
@@ -221,7 +225,12 @@ public class Transmitter : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-	   List<string> Drop_Axis = new List<string> () { "Axis_1", "Axis_2", "Axis_3", "Axis_4", "Axis_5", "Axis_6", "Axis_7", "Axis_8", "Axis_9", "Axis_10" };
+
+        //Logging
+        TrLogger = gameObject.AddComponent<Logger>() as Logger;
+        TrLogger.Init("TrLogger", 0.01f);
+
+        List<string> Drop_Axis = new List<string> () { "Axis_1", "Axis_2", "Axis_3", "Axis_4", "Axis_5", "Axis_6", "Axis_7", "Axis_8", "Axis_9", "Axis_10" };
 		Dropdown_pitch.AddOptions(Drop_Axis);
 		Dropdown_rudder.AddOptions(Drop_Axis);
 		Dropdown_aileron.AddOptions(Drop_Axis);
@@ -244,7 +253,7 @@ public class Transmitter : MonoBehaviour
 	void Update () 
 	{
 
-		Axis_1.value = Input.GetAxisRaw ("Axis_1");
+		Axis_1.value = Input.GetAxisRaw("Axis_1");
 		Axis_2.value = Input.GetAxisRaw("Axis_2");
 		Axis_3.value = Input.GetAxisRaw("Axis_3");
 		Axis_4.value = Input.GetAxisRaw("Axis_4");
@@ -339,7 +348,24 @@ public class Transmitter : MonoBehaviour
 		Slider_3.value=Aileron;
 		Slider_4.value=Elevator;
 		Slider_Throttle.value = Throttle;
-	}
+
+        // Logs
+        timer = timer + Time.fixedDeltaTime;
+        TrLogger.saveLog("time", timer);
+        TrLogger.saveLog("Ail", Axis_1.value);
+        TrLogger.saveLog("Elev", Axis_2.value);
+        TrLogger.saveLog("Thro", Axis_3.value);
+        TrLogger.saveLog("Gyro", Axis_4.value);
+        TrLogger.saveLog("Pitch", Axis_5.value);
+        TrLogger.saveLog("Rud", Axis_6.value);
+        TrLogger.saveLog("Axis7", Axis_7.value);
+        TrLogger.saveLog("Axis8", Axis_8.value);
+        if (!back)
+        {
+            TrLogger.writeCycle();
+        }
+
+    }
 
 
 	public void Calibrate_center()
@@ -367,8 +393,12 @@ public class Transmitter : MonoBehaviour
 
 	public void Back()
 	{
-		Application.LoadLevel ("Main_menu");
-		Save ();
+        back = true;
+        TrLogger.close();
+        Save();
+        Destroy(GameObject.FindGameObjectWithTag("Destroy"));
+        Application.LoadLevel ("Main_menu");
+		
 	}
 
 

@@ -10,21 +10,36 @@ using UnityEngine;
     */
 
 
-public  class FBL : MonoBehaviour{
-
-   public FBL(Rigidbody rb)
-    {
+public  class FBL: MonoBehaviour {
+	string heliName;
+	public void setFBl_CG(Rigidbody rb)
+	{
 		this.heliCG_rb = rb;
-        collision = false;
-		LoadPrefs FBL_loadSet = new LoadPrefs ("FBL_Prefs");
-		kI_rud = FBL_loadSet.loadFloat ("kI_rud", kI_rud);
-		kI_elev = FBL_loadSet.loadFloat ("kI_cyclic", kI_elev);
-        kI_ail =kI_elev;
-        kP_ail = FBL_loadSet.loadFloat("kP_ail", kP_ail);
-        kP_elev = FBL_loadSet.loadFloat("kP_elev", kP_elev);
-        FBL_loadSet.close ();
+	}
 
-    }
+	public void initialize(){
+		collision = false;
+
+		LoadPrefs loadHeli = gameObject.AddComponent< LoadPrefs>() as LoadPrefs;
+		heliName=loadHeli.loadString ("heliName", "Logo600");
+		loadHeli.setFileName("Field");
+		loadHeli.initialize ();
+		loadHeli.close ();
+		LoadPrefs FBL_loadSet = gameObject.AddComponent<LoadPrefs>() as LoadPrefs;
+		FBL_loadSet.setFileNameAndFold(heliName+"_FBL","Helis");
+		FBL_loadSet.initialize ();
+		kI_rud = FBL_loadSet.loadFloat ("kI_rud", kI_rud);
+		kP_rud = FBL_loadSet.loadFloat ("kP_rud", kP_rud)/1000f;
+
+		kI_elev = FBL_loadSet.loadFloat ("kI_cyclic", kI_elev);
+		kI_ail =kI_elev;
+		kP_ail = FBL_loadSet.loadFloat("kP_ail", kP_ail);
+		kP_elev = FBL_loadSet.loadFloat("kP_elev", kP_elev);
+		FBL_loadSet.close ();
+
+	}
+
+   public FBL(){}
 	 
     public static object motor;
 	//Elevator
@@ -130,7 +145,7 @@ public  class FBL : MonoBehaviour{
 	public static float dErr_rud = 0;
 	static float kP_rud = 0.06f;
 	static float kI_rud =60f;
-	static float kD_rud = 0.00004f;
+	static float kD_rud = 0.00004f*0;
     static float outP_rud;
     static float outI_rud;
     static float outD_rud;

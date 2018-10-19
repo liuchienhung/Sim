@@ -7,21 +7,24 @@ using System;
 
 public class LogHandler : MonoBehaviour
 {
+    private GameObject obj;
+    string logName;
     private  StreamWriter _writer;
     void Awake()
     {
-        print("Logger Awake");
+       
+        obj = gameObject;
+        logName = gameObject.transform.name;
+        print("Logger- " + logName + " awake");
 
-        //_writer = new System.IO.StreamWriter(File.Create("log.txt"));
-        //_writer = new System.IO.StreamWriter(File.Create("log.txt"));
 
         string pathApp = Path.GetFullPath(".");
 
-		if (File.Exists (pathApp + @"\logField.txt")) {
+		if (File.Exists (pathApp + @"\"+logName+".txt")) {
 			
-				if (new System.IO.FileInfo (pathApp + @"\logField.txt").Length/100>400) {
+				if (new System.IO.FileInfo (pathApp + @"\" + logName + ".txt").Length/100>400) {
 				try {
-					File.Delete (pathApp + @"\logField.txt");
+					File.Delete (pathApp + @"\" + logName + ".txt");
 					print ("delete ,logs");
 				} catch (Exception e) {
 					print ("can't delete ,logs");
@@ -29,8 +32,9 @@ public class LogHandler : MonoBehaviour
 			}
 		}
        
-        _writer = File.AppendText("logField.txt");
-        _writer.WriteLine("\n\n=============== Game started ================\n\n");
+        _writer = File.AppendText(logName + ".txt");
+        
+        _writer.WriteLine("\n\n=============== Logs "+logName+" started ================\n\n");
         DontDestroyOnLoad(gameObject);
         Application.RegisterLogCallback(HandleLog);
     }
@@ -47,14 +51,18 @@ public class LogHandler : MonoBehaviour
         }
         catch (Exception e)
         {
-            //print("Can't Write Game Log");
-            //print(e);
+            print("Can't Write Game Log");
+            print(e);
         }
     }
 
     void OnDestroy()
     {
-        try {  _writer.Close(); }
+        try {
+            _writer.Close();
+            print("Logger-"+logName+" closed");
+
+        }
         catch (Exception e)
         {
             print("Can't close onDestroy");

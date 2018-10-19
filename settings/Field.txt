@@ -1,2 +1,5 @@
 field_1=False
 field_2=True
+Goblin380=False
+Logo600=True
+heliName=Logo600

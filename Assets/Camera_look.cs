@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Camera_look : MonoBehaviour 
-{
-	public Transform target;
+public class Camera_look : MonoBehaviour{
+	public static Transform target;
     public Transform cam;
     public Camera camera;
 
@@ -27,7 +26,9 @@ public class Camera_look : MonoBehaviour
     // Use this for initialization 
     void Start()
     {
-		LoadPrefs loadHeliPrefs = new LoadPrefs ("CamPrefs");
+		LoadPrefs loadHeliPrefs =  gameObject.AddComponent< LoadPrefs>() as LoadPrefs;
+		loadHeliPrefs.setFileName("CamPrefs");
+		loadHeliPrefs.initialize();
 		camera.fieldOfView = loadHeliPrefs.loadFloat("camera_zoom",30f);
 		loadHeliPrefs.close ();
         fieldOfView = camera.fieldOfView;
@@ -62,7 +63,7 @@ public class Camera_look : MonoBehaviour
         float max_q =3f;
         if (q > max_q) { q = max_q; }
       // print(q);
-        smoothTime =20f;
+        smoothTime =10f;
        // if (q < 1) { smoothTime = 1f; }
         float speed = smoothTime*0.5f + smoothTime * Mathf.Sqrt(q) *4f;
         

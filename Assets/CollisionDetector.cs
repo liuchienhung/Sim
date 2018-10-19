@@ -39,12 +39,7 @@ public class CollisionDetector : MonoBehaviour {
             if (timer > 2) {
                 crash_main_rotor = false;
 
-                /*
-				foreach(GameObject o in Object.FindObjectsOfType<GameObject>()){
-					print("Destroy-"+o.name);
-					Destroy (o);
-				}
-				*/
+            
                 print("rotor crushed");
                 motor.closeLogger ();
                 Destroy(GameObject.FindGameObjectWithTag("Destroy"));
@@ -61,9 +56,13 @@ public class CollisionDetector : MonoBehaviour {
 		if (col.collider.tag == "Ground") {
            
             //motor.Collision();
+
             rotor_model_object =GameObject.FindGameObjectWithTag("rotor_model");
+
 			rotor_collider_object=GameObject.FindGameObjectWithTag("rotor_collider");
-			main_rotor_model_hinge = rotor_model_object.GetComponent<HingeJoint>();
+
+			//main_rotor_model_hinge = rotor_model_object.GetComponent<HingeJoint>();
+
 			main_rotor_collider_hinge = rotor_collider_object.GetComponent<HingeJoint>();
 
 

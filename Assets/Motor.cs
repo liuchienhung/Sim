@@ -2,11 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public  class Motor : MonoBehaviour{
+public  class Motor: MonoBehaviour {
+	
+	
+	string heliName;
+
+		
     int i = 0;
-    Logger motorLogger= new Logger("MotorLogger",0.1f);
+	Logger motorLogger;
+    bool closeLogs = false;
     public static object motor;
     float Power_m;
+	float Torq_m ;
     public static float e = 0;
     static float last_e = 0;
     public static float input = 0;
@@ -19,8 +26,10 @@ public  class Motor : MonoBehaviour{
     static float kd = 0.00005f;
     public static float rpm_r = 0;
     public float rpm_set;
-    static float rpm_max = 2600;
+    float rpm_max = 2600;
     
+	float Ic = 0.0009f;
+	
     public static int pwm = 0;
     static float  autorotation=1;
 	static float deltaTime;
@@ -44,13 +53,37 @@ public  class Motor : MonoBehaviour{
 	{
 		deltaTime =dt;
 	}
+	public void setMotorPrwRpm(float Power,float rpm_max)
+	{
+		this.Power_m = Power;
+		this.rpm_max = rpm_max;
+	}
 
-    public Motor(float Power)
-    {
-        this.Power_m = Power;
-        motor = this;
-        collision = false;
-     }
+	public void Init()
+	{
+		collision = false;
+		motorLogger = gameObject.AddComponent<Logger>() as Logger;
+		motorLogger.Init("MotorLogger",0.1f);
+		LoadPrefs loadHeli = gameObject.AddComponent<LoadPrefs>() as LoadPrefs;
+        loadHeli.setFileName("Field");
+        loadHeli.initialize();
+        heliName =loadHeli.loadString ("heliName", "Logo600");
+       
+        loadHeli.setFileName("Field");
+		loadHeli.initialize ();
+		loadHeli.close ();
+
+		LoadPrefs loadHeliPrefs = gameObject.AddComponent< LoadPrefs>() as LoadPrefs;
+		loadHeliPrefs.setFileNameAndFold (heliName,"Helis");
+		loadHeliPrefs.initialize ();
+		Ic  = loadHeliPrefs.loadFloat("Ic", Ic);
+		rpm_max  = loadHeliPrefs.loadFloat("rpm_max", 0f);
+		if (Ic == 0) {Ic = 0.001f;}
+		if (rpm_max == 0) {rpm_max = rpm_set*1.2f;}
+		loadHeliPrefs.close ();
+     
+	}
+
 	public  float getRpm(float Power_c,float Power_oversp, float deltaTime)
     {
 
@@ -59,9 +92,7 @@ public  class Motor : MonoBehaviour{
         float rpm = rpm_set;
         
 		float Torq0 = 0;
-        float Torq_m = Power_m / rpm;
-
-        float Ic = 0.0009f;
+        Torq_m = Power_m / rpm;
       
         if (rpm_r > rpm_max)
         {
@@ -73,8 +104,15 @@ public  class Motor : MonoBehaviour{
            
 		}
 		else{Torq0=100f / rpm;}
-		rpm_r = rpm_r + deltaTime * (Power_oversp / rpm * 4f + Torq_m * output - (Power_c * (rpm_r / rpm) / rpm +Torq0)) / Ic;
-
+		rpm_r = rpm_r + deltaTime * (Power_oversp / rpm * 4f + Power_m / rpm * output - (Power_c * (rpm_r / rpm) / rpm +Torq0)) / (Ic)*10f;
+		/*
+		print ("Torq="+(Power_oversp / rpm * 4f + Torq_m * output - (Power_c * (rpm_r / rpm) / rpm +Torq0)) );
+		print ("Torq_m="+ Torq_m);
+		print ("Power_m="+ Power_m);
+		print ("rpm="+ rpm);
+		print ("output="+output);
+		print ("Power_m / rpm="+Power_m / rpm);
+		*/
         e = rpm*autorotation - rpm_r;
 		errSum = errSum * autorotation + e * deltaTime;
 		dErr = (e - last_e) / deltaTime;
@@ -134,7 +172,7 @@ public  class Motor : MonoBehaviour{
 		motorLogger.saveLog("dErr",dErr);
 		motorLogger.saveLog ("rpm",(int)rpm);
 
-        if (!collision){ motorLogger.writeCycle(); }
+        if (!collision||!closeLogs){ motorLogger.writeCycle(); }
 		//
         return rpm_r;
     }
@@ -149,7 +187,8 @@ public  class Motor : MonoBehaviour{
 	}
 	public void closeLogger()
 	{
-		motorLogger.close ();
+        closeLogs= true;
+        motorLogger.close ();
 	}
 
     

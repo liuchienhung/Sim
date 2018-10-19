@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Rotor_effects : MonoBehaviour {
+public class Rotor_effects  : MonoBehaviour{
     public Text fps_text;
     public Text text;
     public Slider slider1;
@@ -18,6 +18,8 @@ public class Rotor_effects : MonoBehaviour {
     Renderer rotor_rend;
     public Renderer trotor_rend;
     Color mrotor_disc_color;
+	Color mrotor_mat1_color;
+	public Material mrotor_mat1;
     public Material mrotor_disc_mat;
     public Material trotor_disc_mat;
 
@@ -29,6 +31,7 @@ public class Rotor_effects : MonoBehaviour {
     // Use this for initialization
     void Start () {
         rotor_rend = main_rotor.GetComponent<Renderer>();
+		mrotor_mat1_color=mrotor_mat1.color;
         //trotor_rend = tail_rotor.GetComponent<Renderer>();
         rotor_color = rotor_rend.material.color;
         mrotor_disc_color = mrotor_disc_mat.color;
@@ -40,14 +43,17 @@ public class Rotor_effects : MonoBehaviour {
         deltaTime += (Time.unscaledDeltaTime - deltaTime) * 0.1f;
         rpm = Motor.rpm_r;
         rpm_tail = rpm * 4;
+
         if (rpm / 60 > 7.9f)
         {
+			mrotor_mat1.color = new UnityEngine.Color(0f, 0f, 0f, 0.2f);
             rotor_rend.material.color = new UnityEngine.Color(rotor_color.r, rotor_color.g, rotor_color.b, 0.2f);
             mrotor_disc_mat.color = new UnityEngine.Color(mrotor_disc_color.r, mrotor_disc_color.g, mrotor_disc_color.b, 0.2f);
 
         }
         else
         {
+			mrotor_mat1.color = new UnityEngine.Color(0, 0, 0, (0.2f + (1 - rpm / 60 / 7.9f)));
             rotor_rend.material.color = new UnityEngine.Color(rotor_color.r, rotor_color.g, rotor_color.b, (0.2f + (1 - rpm / 60 / 7.9f)));
             mrotor_disc_mat.color = new UnityEngine.Color(mrotor_disc_color.r, mrotor_disc_color.g, mrotor_disc_color.b, 0.2f * (rpm / 60 / 7.9f));
         }

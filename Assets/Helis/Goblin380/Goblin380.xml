@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Helicopter>
+  <!--General Parameters-->
+  <Name edit="yes">SAB GOBLIN 380</Name>
+  <TimeFactor edit="no">1</TimeFactor>
+  <PhysicalModelName edit="no">Helicopter_V1_1</PhysicalModelName>
+  <Author edit="no">Jan Stauffacher</Author>
+  <Comment edit="no">SAB Goblin 380 model,
+   textures and sound by Jan Stauffacher.  ---  Improved flight parameters or sound recordings are welcome. --- Have fun!!</Comment>
+  <Version>2016-12-07</Version>
+  <HelixRevision>1254</HelixRevision>
+  <!--Visual Parameters-->
+  <GearShape>
+    <Name>Motor</Name>
+    <RotationAxis>0,1,0</RotationAxis>
+    <Pivot>5.73659,2.8,0</Pivot>
+    <SpeedFactor>5</SpeedFactor>
+  </GearShape>
+  <MainrotorPosition edit="no">0,0,0</MainrotorPosition>
+  <MainrotorTurnAxis edit="no">0,1,0</MainrotorTurnAxis>
+  <MainrotorAngle edit="no">0,0,0</MainrotorAngle>
+  <TailrotorPosition edit="no">-40.149,0,3.398</TailrotorPosition>
+  <TailrotorTurnAxis edit="no">0,0,1</TailrotorTurnAxis>
+  <TailrotorAngle edit="no">270,0,0</TailrotorAngle>
+  <TailrotorCrashSizePercentage edit="yes">80</TailrotorCrashSizePercentage>
+  <CameraPosition>0.14,0,0</CameraPosition>
+  <Scale edit="no" />
+  <ScaleDeterminantPartName edit="no">Mainrotor</ScaleDeterminantPartName>
+  <SizeOfScaleDeterminantPart edit="no">1</SizeOfScaleDeterminantPart>
+  <HelicopterType>Trainer</HelicopterType>
+  <HookPosition edit="no">Middle,0,-13,0</HookPosition>
+  <FactorVisualElasticBladePitch>0</FactorVisualElasticBladePitch>
+  <FactorVisualElasticBladeCyclic>0.5</FactorVisualElasticBladeCyclic>
+  <TextureShape edit="no" texture="4" group="1">Canopy</TextureShape>
+  <Texture edit="no" group="1">Yellow-Blue,G380tex1.png</Texture>
+  <Texture edit="no" group="1">Yellow-Red,G380tex2.png</Texture>
+  <Texture edit="no" group="1">Carbon-Red,G380tex3.png</Texture>
+  <Texture edit="no" group="1">Carbon-Yellow,G380tex4.png</Texture>
+  <Texture edit="no" group="1">Carbon-Green,G380tex5.png</Texture>
+  <!--Mass, geometry etc.-->
+  <RhoAir edit="no">1.209</RhoAir>
+  <Mass edit="yes">1.4</Mass>
+  <Ixx edit="no">0.021</Ixx>
+  <Iyy edit="no">0.02</Iyy>
+  <Izz edit="no">0.04</Izz>
+  <Ixy edit="no">0.0007</Ixy>
+  <!--Main rotor-->
+  <RotorHeadPosition edit="no">0,0.0,0</RotorHeadPosition>
+  <NumberOfBlades edit="no">2</NumberOfBlades>
+  <MaxRadiusBlade edit="yes">0.5</MaxRadiusBlade>
+  <MinRadiusBlade edit="no">0.065</MinRadiusBlade>
+  <ChordLengthBlade edit="no">0.048</ChordLengthBlade>
+  <MassBlade edit="yes">0.050</MassBlade>
+  <SenseOfOrientation edit="yes">-1</SenseOfOrientation>
+  <MultiplicatorMainRotorInertia edit="no">1</MultiplicatorMainRotorInertia>
+  <!--Main rotor, settings-->
+  <PitchAngleMinMax edit="yes">-11,11</PitchAngleMinMax>
+  <BladeRollAngleMinMax edit="yes">-6,6</BladeRollAngleMinMax>
+  <BladeNickAngleMinMax edit="yes">-6,6</BladeNickAngleMinMax>
+  <RotorRevPerMin100 edit="yes">3700</RotorRevPerMin100>
+  <PitchCurve edit="no">-100,-50,0,50,100</PitchCurve>
+  <PitchCurve2 edit="no">-100,-50,0,50,100</PitchCurve2>
+  <PitchCurveA edit="no">-100,-50,0,50,100</PitchCurveA>
+  <ThrottleCurve edit="no">40,40,40,40,40</ThrottleCurve>
+  <ThrottleCurve2 edit="no">70,70,70,70,70</ThrottleCurve2>
+  <ThrottleCurveA edit="no">-100,-100,-100,-100,-100</ThrottleCurveA>
+  <NickExpo edit="yes">20</NickExpo>
+  <NickExpo2 edit="no">20</NickExpo2>
+  <NickExpoA edit="no">20</NickExpoA>
+  <NickDualRate edit="yes">90</NickDualRate>
+  <NickDualRate2 edit="no">90</NickDualRate2>
+  <NickDualRateA edit="no">90</NickDualRateA>
+  <NickDeadBand>0</NickDeadBand>
+  <NickDeadBand2>0</NickDeadBand2>
+  <NickDeadBandA>0</NickDeadBandA>
+  <RollExpo edit="yes">20</RollExpo>
+  <RollExpo2 edit="no">20</RollExpo2>
+  <RollExpoA edit="no">20</RollExpoA>
+  <RollDualRate edit="yes">90</RollDualRate>
+  <RollDualRate2 edit="no">90</RollDualRate2>
+  <RollDualRateA edit="no">90</RollDualRateA>
+  <RollDeadBand>0</RollDeadBand>
+  <RollDeadBand2>0</RollDeadBand2>
+  <RollDeadBandA>0</RollDeadBandA>
+  <!--Main rotor, thrust-->
+  <MultiplicatorRotorLift edit="no">0.8</MultiplicatorRotorLift>
+  <MultiplicatorRotorLiftAutorotation edit="no">0.8</MultiplicatorRotorLiftAutorotation>
+  <MultiplicatorAirResistanceM edit="no">1</MultiplicatorAirResistanceM>
+  <MultiplicatorAirResistanceN edit="no">1</MultiplicatorAirResistanceN>
+  <MultiplicatorStallLift edit="yes">1</MultiplicatorStallLift>
+  <FactorAirResistanceDuringStall>1</FactorAirResistanceDuringStall>
+  <StallAngle edit="no">21</StallAngle>
+  <StallRevPerMin edit="no">1400</StallRevPerMin>
+  <MultiplicatorNickRollPower edit="yes">10</MultiplicatorNickRollPower>
+  <AdditionalLinearAirResistance edit="no">0.6</AdditionalLinearAirResistance>
+  <AdditionalLinearPitchAirResistance edit="no">0.6</AdditionalLinearPitchAirResistance>
+  <GroundEffectExponent edit="no">1.5</GroundEffectExponent>
+  <GroundEffectIntensity>1</GroundEffectIntensity>
+  <TipLossFactor edit="yes">1</TipLossFactor>
+  <VerticalClimbFactor edit="yes">1</VerticalClimbFactor>
+  <MultiplicatorRotorTorque edit="no">0.9</MultiplicatorRotorTorque>
+  <EulerFlowMagicNumber1 edit="no">2</EulerFlowMagicNumber1>
+  <EulerFlowMagicNumber2 edit="no">1</EulerFlowMagicNumber2>
+  <EulerFlowMagicNumber3 edit="no">0.8</EulerFlowMagicNumber3>
+  <FactorRollNickCouplingForewardFlight edit="yes">0.01</FactorRollNickCouplingForewardFlight>
+  <PitchDynamic>0</PitchDynamic>
+  <NickDynamic>0</NickDynamic>
+  <RollDynamic>0</RollDynamic>
+  <!--Main rotor, rotor head-->
+  <RotorHeadStiffnessTimeConstant edit="yes">0.01</RotorHeadStiffnessTimeConstant>
+  <RotorHeadStiffnessDamping edit="yes">1.5</RotorHeadStiffnessDamping>
+  <RotorHeadStiffnessMinimalDamping edit="yes">1</RotorHeadStiffnessMinimalDamping>
+  <RotorHeadStiffnessMinimalOmega edit="yes">2</RotorHeadStiffnessMinimalOmega>
+  <RotorHeadStiffnessNickRollCoupling edit="yes">0.15</RotorHeadStiffnessNickRollCoupling>
+  <RotorHeadStiffnessDifferential>0</RotorHeadStiffnessDifferential>
+  <RotorHeadInstabilityTimeConstant edit="yes">3</RotorHeadInstabilityTimeConstant>
+  <RotorHeadInstabilityAmplitude edit="yes">2</RotorHeadInstabilityAmplitude>
+  <RotorPhaseShiftDegrees edit="yes">2</RotorPhaseShiftDegrees>
+  <!--Bell Hiller paddles -->
+  <MassPaddle edit="yes">0.0000001</MassPaddle>
+  <MassFlybar edit="no">0.00000002</MassFlybar>
+  <LengthFlybar edit="yes">0.35</LengthFlybar>
+  <AreaPaddle edit="yes">0.000000000003</AreaPaddle>
+  <!--Bell Hiller paddles, settings-->
+  <PaddlePitchFactor edit="no">0</PaddlePitchFactor>
+  <HillerNickAngleMinMax edit="no">-1,1</HillerNickAngleMinMax>
+  <HillerRollAngleMinMax edit="no">-1,1</HillerRollAngleMinMax>
+  <!--Tail rotor-->
+  <TailNumberOfBlades edit="no">2</TailNumberOfBlades>
+  <TailMaxRadiusBlade edit="yes">0.09</TailMaxRadiusBlade>
+  <TailMinRadiusBlade edit="no">0.005</TailMinRadiusBlade>
+  <TailChordLengthBlade edit="no">0.025</TailChordLengthBlade>
+  <TailXyzPosition edit="no">-0.6,0,0</TailXyzPosition>
+  <TailXyzDirection edit="no">0,0,1</TailXyzDirection>
+  <TailFrequencyRatio edit="yes">5.5</TailFrequencyRatio>
+  <!--Tail rotor, thrust-->
+  <MultiplicatorTailRotorLift edit="no">1</MultiplicatorTailRotorLift>
+  <MultiplicatorTailAirResistanceM edit="no">0</MultiplicatorTailAirResistanceM>
+  <MultiplicatorTailAirResistanceN edit="no">0</MultiplicatorTailAirResistanceN>
+  <MultiplicatorSideShiftByTailRotor edit="no">1</MultiplicatorSideShiftByTailRotor>
+  <TailRotorFlightAirResistanceM edit="no">0.0001</TailRotorFlightAirResistanceM>
+  <TailRotorFlightAirResistanceN edit="no">0.007</TailRotorFlightAirResistanceN>
+  <!--Tail rotor, Gyro settings-->
+  <TailPitchAngleMinMax edit="no">-20,20</TailPitchAngleMinMax>
+  <TailServoSpeed edit="yes">600</TailServoSpeed>
+  <TailThrustReduction edit="no">1</TailThrustReduction>
+  <YawRateMax edit="yes">14</YawRateMax>
+  <GyroGain edit="yes">85.0</GyroGain>
+  <GyroGain2 edit="yes">85.0</GyroGain2>
+  <GyroGainA edit="yes">65.0</GyroGainA>
+  <GyroHeadingHoldGain edit="yes">75.0</GyroHeadingHoldGain>
+  <GyroHeadingHoldGain2 edit="yes">65.0</GyroHeadingHoldGain2>
+  <GyroHeadingHoldGainA edit="yes">65.0</GyroHeadingHoldGainA>
+  <GyroSensorQuality edit="yes">0</GyroSensorQuality>
+  <YawExpo edit="yes">0</YawExpo>
+  <YawExpo2 edit="no">0</YawExpo2>
+  <YawExpoA edit="no">0</YawExpoA>
+  <YawDualRate edit="yes">80</YawDualRate>
+  <YawDualRate2 edit="no">80</YawDualRate2>
+  <YawDualRateA edit="no">80</YawDualRateA>
+  <YawDeadBand>0</YawDeadBand>
+  <YawDeadBand2>0</YawDeadBand2>
+  <YawDeadBandA>0</YawDeadBandA>
+  <!--3 axes stabilisation system-->
+  <StabiNickGain edit="yes">40</StabiNickGain>
+  <StabiNickHeadingHoldGain edit="yes">20</StabiNickHeadingHoldGain>
+  <StabiNickSensorQuality edit="yes">0</StabiNickSensorQuality>
+  <StabiNickRateMax edit="yes">0.8</StabiNickRateMax>
+  <StabiRollGain edit="yes">40</StabiRollGain>
+  <StabiRollHeadingHoldGain edit="yes">20</StabiRollHeadingHoldGain>
+  <StabiRollSensorQuality edit="yes">0</StabiRollSensorQuality>
+  <StabiRollRateMax edit="yes">0.8</StabiRollRateMax>
+  <!--Engine-->
+  <EngineFrequencyRatio edit="yes">17.0</EngineFrequencyRatio>
+  <OmegaTorqueData edit="yes">0,0.4,
+		10000,0.6,
+		20000,1,
+		40000,2.5,
+		45000,3.4,
+		50000,2.8</OmegaTorqueData>
+  <GearFrictionCoefficientNormal edit="no">0.003</GearFrictionCoefficientNormal>
+  <GearFrictionCoefficientAutorotation edit="no">0.0028</GearFrictionCoefficientAutorotation>
+  <!--Servos-->
+  <ServoMaxSpeed edit="yes">300</ServoMaxSpeed>
+  <ServoClearance edit="yes">0</ServoClearance>
+  <!--Fuselage-->
+  <Face>
+    <Position>0.3,0,0</Position>
+    <Normal>1,0,0</Normal>
+    <CW>0.01</CW>
+    <Area>0.004</Area>
+  </Face>
+  <Face>
+    <Position>-0.5,0,0</Position>
+    <Normal>-1,0,0</Normal>
+    <CW>0.01</CW>
+    <Area>0.004</Area>
+  </Face>
+  <Face>
+    <Position>0.3,0,0.1</Position>
+    <Normal>0,0,1</Normal>
+    <CW>0.01</CW>
+    <Area>0.008</Area>
+  </Face>
+  <Face>
+    <Position>-0.5,0,-0.1</Position>
+    <Normal>0,0,-1</Normal>
+    <CW>0.01</CW>
+    <Area>0.008</Area>
+  </Face>
+  <Face>
+    <Position>-0.5,0,0.1</Position>
+    <Normal>0,0,1</Normal>
+    <CW>0.01</CW>
+    <Area>0.008</Area>
+  </Face>
+  <Face>
+    <Position>0.3,0,-0.1</Position>
+    <Normal>0,0,-1</Normal>
+    <CW>0.01</CW>
+    <Area>0.008</Area>
+  </Face>
+  <Face>
+    <Position>0,0.2,0</Position>
+    <Normal>0,1,0</Normal>
+    <CW>0.01</CW>
+    <Area>0.008</Area>
+  </Face>
+  <Face>
+    <Position>0,-0.3,0</Position>
+    <Normal>0,-1,0</Normal>
+    <CW>0.01</CW>
+    <Area>0.008</Area>
+  </Face>
+  <MultiplicatorAirResistanceTailRotorBroken edit="no">55</MultiplicatorAirResistanceTailRotorBroken>
+  <!--Horizontal and Vertical Tails-->
+  <VerticalTailArea edit="no">0.0001</VerticalTailArea>
+  <VerticalTailNormal edit="no">0,0,1.0</VerticalTailNormal>
+  <VerticalTailPosition edit="no">-0.35,0,0</VerticalTailPosition>
+  <HorizontalTailArea edit="no">0.00001</HorizontalTailArea>
+  <HorizontalTailNormal edit="no">0,1.0,0</HorizontalTailNormal>
+  <HorizontalTailPosition edit="no">-0.5,0,0</HorizontalTailPosition>
+  <!--Landing Gear-->
+  <ContactStiffness edit="no">430</ContactStiffness>
+  <ContactViscosity edit="no">10</ContactViscosity>
+  <ContactViscosityTangential>5.0</ContactViscosityTangential>
+  <FrictionCoefficientX edit="no">2</FrictionCoefficientX>
+  <FrictionCoefficientZ edit="no">3</FrictionCoefficientZ>
+  <MaximalContactVelocity>5</MaximalContactVelocity>
+  <!--Sound-->
+  <SoundVolumeFactor>0.2</SoundVolumeFactor>
+  <BladeVolumeFactor>0.3</BladeVolumeFactor>
+  <TailVolumeFactor>0.15</TailVolumeFactor>
+  <CrashVolumeFactor>0.7</CrashVolumeFactor>
+  <BladeSound edit="no">0.025</BladeSound>
+  <BladeSoundExpo edit="no">1.9</BladeSoundExpo>
+  <TailSound>2</TailSound>
+  <TailSoundExpo>3</TailSoundExpo>
+  <!--Smoke-->
+</Helicopter>
+

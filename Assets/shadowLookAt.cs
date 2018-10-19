@@ -10,7 +10,7 @@ public class shadowLookAt : MonoBehaviour {
 	}
 	
 
-    public Transform obj;
+    public static Transform obj;
 	// Update is called once per frame
 	void Update () {
         transform.LookAt(obj);
